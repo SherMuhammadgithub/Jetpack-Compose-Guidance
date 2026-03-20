@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /g/GoogleDesign -type f \\\\\\(-name *.gradle -o -name *.gradle.kts -o -name AndroidManifest.xml \\\\\\))",
+      "Bash(find /g/GoogleDesign -type f \\\\\\(-name *.kt -o -name *.java \\\\\\))",
+      "Bash(grep -r kotlin G:GoogleDesign/app/build --include=*.properties)",
+      "Bash(find G:GoogleDesign/.gradle -name *.lock -o -name *.bin)",
+      "Bash(mv \"Poppins-Regular.ttf\" \"poppins_regular.ttf\")",
+      "Bash(mv \"Poppins-Medium.ttf\" \"poppins_medium.ttf\")",
+      "Bash(mv \"Poppins-SemiBold.ttf\" \"poppins_semibold.ttf\")",
+      "Bash(mv \"Poppins-Bold.ttf\" \"poppins_bold.ttf\")",
+      "Bash(cd:*)",
+      "Bash(./gradlew assembleDebug)",
+      "Bash(./gradlew assembleRelease)"
+    ]
+  }
+}
