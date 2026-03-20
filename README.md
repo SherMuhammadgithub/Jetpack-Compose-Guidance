@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Jetpack Compose Guide
 
 A hands-on learning app built with **Jetpack Compose** and **Material 3**, designed to teach Compose fundamentals through interactive examples. Each concept is demonstrated with working code, inline comments, and live UI you can interact with.
@@ -243,6 +242,3 @@ Or open in Android Studio and click **Run**.
 ## License
 
 This project is for educational purposes.
-=======
-# Jetpack-Compose-Guidance
->>>>>>> b50cbe4113bfe61ca897c543206fc1f3e791cb44
