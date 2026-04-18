@@ -59,6 +59,8 @@ dependencies {
     implementation(libs.androidx.compose.material.icons.extended) // Extended icons (Visibility, etc.)
     implementation(libs.androidx.activity.compose)        // Lets Activity use setContent {}
     implementation(libs.androidx.navigation.compose)       // Navigation between screens
+    implementation(libs.androidx.lifecycle.viewmodel.compose)  // ViewModel in Compose
+    implementation(libs.androidx.lifecycle.runtime.compose)    // collectAsStateWithLifecycle
 
     // Tooling — for previewing Compose UI inside Android Studio
     implementation(libs.androidx.compose.ui.tooling.preview)

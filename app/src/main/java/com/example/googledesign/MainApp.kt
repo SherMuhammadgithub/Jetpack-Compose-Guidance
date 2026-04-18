@@ -46,6 +46,8 @@ import com.example.googledesign.learn.Level2Screen
 import com.example.googledesign.learn.Level3Screen
 import com.example.googledesign.learn.Level4Screen
 import com.example.googledesign.learn.Level5Screen
+import com.example.googledesign.learn.Level6Screen
+import com.example.googledesign.learn.Level7Screen
 import com.example.googledesign.ui.theme.GoogleDesignTheme
 
 // ═══════════════════════════════════════════════════════════
@@ -65,6 +67,8 @@ val levels = listOf(
     LevelInfo(3, "Interactivity", "State, input fields, user actions", listOf("State", "TextField", "Clicks & Toggles")),
     LevelInfo(4, "Lists & Nav", "Scrollable lists, cards, screens", listOf("LazyColumn", "Cards & ListItem", "Navigation")),
     LevelInfo(5, "App Patterns", "Scaffold, ViewModel, recomposition", listOf("Full Screens", "ViewModel", "Recomposition")),
+    LevelInfo(6, "NavGraph Deep Dive", "Real navigation patterns", listOf("Arguments", "Back Stack", "Bottom Nav", "Nested Graphs")),
+    LevelInfo(7, "ViewModel + API", "Real app data with API calls", listOf("StateFlow", "UI State", "API Calls", "LaunchedEffect")),
 )
 
 
@@ -126,6 +130,8 @@ fun LevelDetailScreen(levelNumber: Int, onBack: () -> Unit) {
             3 -> Level3Screen(modifier = Modifier.padding(innerPadding))
             4 -> Level4Screen(modifier = Modifier.padding(innerPadding))
             5 -> Level5Screen(modifier = Modifier.padding(innerPadding))
+            6 -> Level6Screen(modifier = Modifier.padding(innerPadding))
+            7 -> Level7Screen(modifier = Modifier.padding(innerPadding))
         }
     }
 }
@@ -191,9 +197,9 @@ fun HomeLandingPage(
                     .padding(vertical = 14.dp),
                 horizontalArrangement = Arrangement.SpaceEvenly
             ) {
-                StatItem("5", "Levels")
-                StatItem("16", "Topics")
-                StatItem("80+", "Examples")
+                StatItem("7", "Levels")
+                StatItem("27", "Topics")
+                StatItem("100+", "Examples")
             }
 
             // Sticky heading
